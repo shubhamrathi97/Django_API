@@ -11,4 +11,4 @@
 * Run `python manage.py test` to run the testcases
 
 **Documentation**
-* `Run server and browser to http://localhost:8000/docs`
+* Run server and browser to `http://localhost:8000/docs`

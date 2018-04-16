@@ -6,7 +6,7 @@ from . import views
 router = routers.DefaultRouter(trailing_slash=True)
 router.register(r'company', views.CompanyList, base_name="company")
 router.register(r'address', views.AddressList, base_name="address")
-router.register(r'postalcode/(?P<count>[0-9]+)', views.PostalCodeList, base_name="postalcode")
+router.register(r'postalcode/(?P<count>[0-9]+)/', views.PostalCodeList, base_name="postalcode")
 
 
 urlpatterns = [
